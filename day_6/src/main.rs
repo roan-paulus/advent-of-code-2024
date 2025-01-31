@@ -120,7 +120,6 @@ async fn main() {
                 }
                 println!();
             }
-            sleep(Duration::from_millis(500));
             next_frame().await
         }
     } else {
